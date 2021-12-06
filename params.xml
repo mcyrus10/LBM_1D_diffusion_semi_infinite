@@ -1,0 +1,18 @@
+<?xml version="1.0" ?> 
+<inputs>
+    <!-- ================================================================== -->
+    <!-- GEOMETRIC PARAMETERS -->
+    <!-- ================================================================== -->
+    <lx>            1       </lx>           <!-- nx = lx*resolution+1 --> 
+    <ly>            3       </ly>           <!-- ny = ly*resolution+1 --> 
+    <resolution>    70      </resolution>   <!-- Res --> 
+    <!-- ================================================================== -->
+    <!-- Solute Transport Lattice Parameters -->
+    <!-- ================================================================== -->
+    <tau_ad>        1.0     </tau_ad>       <!-- Relaxation time AD Lattice--> 
+    <!-- ================================================================== -->
+    <!-- TIME STEPPING ( NOTE  - MAX ITER IS CALCULATED TO YIELD 1 SECOND! )-->
+    <!-- ================================================================== -->
+    <convergenceIter> 500     </convergenceIter>   <!-- Output Frequency -->
+</inputs> 
+

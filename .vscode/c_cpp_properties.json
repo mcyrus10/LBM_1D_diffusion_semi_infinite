@@ -1,0 +1,18 @@
+
+{
+    "configurations": [{
+        "name": "WSL2",
+        "includePath": [
+                        "${workspaceFolder}/**",
+                        "/home/cyrus/palabos/src",
+                        "/home/cyrus/palabos/externalLibraries"
+                        ],
+        "defines": [],
+        "macFrameworkPath": [],
+        "compilerPath": "/usr/bin/g++",
+        "cStandard": "c11",
+        "cppStandard": "gnu++14",
+        "intelliSenseMode": "clang-x64"
+    }],
+    "version":4
+}
